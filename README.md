@@ -9,5 +9,5 @@
 ## How to use it
 - genData.py: script to generate original dataset with key and value, generate 10000 items in default;
   command: ```python genData.py```
-- Compile Database: ```g++ -g TechDB.cpp -o TechDB```
-- Run Databse: ```./TechDB```, it shows query time by index and query time by scanning the database table;
+- Compile Database: ```g++ -g techdb.cpp -o techdb```
+- Run Databse: ```./techdb```, it shows query time by index and query time by scanning the database table;
